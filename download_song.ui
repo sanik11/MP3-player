@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>385</width>
+    <height>145</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>Png/icon.png</normaloff>Png/icon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #292929;
+color: white;</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>49</y>
+     <width>358</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(94, 94, 94);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>14</y>
+     <width>358</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #808080;
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:9pt; font-style:italic;&quot;&gt;Enter the name of the song you want to download:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>126</x>
+     <y>84</y>
+     <width>134</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>Download the song</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #808080;
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Download</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>Png/icon.png</normaloff>Png/icon.png</iconset>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
